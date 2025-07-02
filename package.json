@@ -1,0 +1,23 @@
+{
+  "name": "typegen-error-reproduction",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "package.json",
+  "author": {
+    "name": "Jamie Warburton",
+    "url": "https://github.com/jamiewarb"
+  },
+  "license": "MIT",
+  "scripts": {
+    "typegen": "npx sanity typegen generate"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "sanity": "3.96.0"
+  },
+  "devDependencies": {
+  }
+}
