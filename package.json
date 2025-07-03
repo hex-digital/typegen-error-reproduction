@@ -16,8 +16,13 @@
     "sanity"
   ],
   "dependencies": {
-    "sanity": "3.80.0"
+    "sanity": "3.96.0"
   },
   "devDependencies": {
+  },
+  "pnpm": {
+    "overrides": {
+      "@babel/types": "7.27.7"
+    }
   }
 }
